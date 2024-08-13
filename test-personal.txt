@@ -1,1 +1,1 @@
-test-git
+test of merge and conflict
