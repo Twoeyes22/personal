@@ -1,0 +1,17 @@
+# 2가지를 처리해야해요ㅣ.
+for i in range(1, N+1):
+	for j in range(1, M+1):
+		# 판다가 있는 위치인가?
+		temp_score = 0
+		if [i, j] not in pandas:
+			# 불만족도 점수를 계산해라.
+			i, j 좌표에서 모든 판단들의 불만족도 점수를 합한 값이
+			최종 불만족도 점수
+			-> 최소 불만족도 점수만 구하신 분이 있어요.
+			for panda in pandas:
+				temp_score += ((i - panda[0])**2 + (j - panda[1])**2)
+				# Root 필요 없음 -> 제곱으로 구했기 때문에
+				
+		total = min(total, temp_score)
+		
+print(total)
