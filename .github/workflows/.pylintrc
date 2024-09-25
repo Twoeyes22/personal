@@ -1,8 +1,0 @@
-[MASTER]
-ignore-patterns=.*[가-힣].*\.py
-
-[FORMAT]
-indent-string='    '
-
-[MESSAGES CONTROL]
-disable=C0111
